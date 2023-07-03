@@ -91,6 +91,7 @@ fused_list = list()
 for(cluster in cluster_range){
   k3 = cluster
   c  = cluster
+  temp_best_p = 0
   if(cluster == 2){
     c = 3
     
@@ -150,8 +151,7 @@ for(cluster in cluster_range){
     for(i in 2:100){
       final_fuse = MDICC(scaled_final_aff,c = c,k = i, fusion_number = 3)
       fuse_S = as.matrix(final_fuse)
-      temp_best_p = 0
-        
+              
       # Get the labels from clustering the fused affinity matrix S
       clustering = MDICClabel(fuse_S, cluster)
         
