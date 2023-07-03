@@ -18,3 +18,5 @@ To execute this code, it is necessary to download the code from the aforemention
 - SKCM
   
 For successful execution of the code, please ensure that the ipynb file is run first, and the resulting .csv files are placed in the appropriate directory to be compatible with the R file. If you need access to the original datasets, please contact me.
+
+Although I performed this procedure for multiple cancer types, I will demonstrate it solely for the BRCA cancer type for simplicity. Please note that the code provided in this repository is just an example, and for the other cancer types, a similar approach was employed.
