@@ -80,8 +80,7 @@ best_p = list(0,0,0)
 
 # Initialize values for iterating
 score_list = list()
-#cluster_range = 2:5
-cluster_range = 3:5
+cluster_range = 2:5
 fused_list = list()
 for(cluster in cluster_range){
   k3 = cluster
