@@ -1,3 +1,11 @@
+# This code is based on the history used in the MDICC paper. I would like to refer to:
+# Addition to the original code of the MDICC method to determine k2
+# For the functions used in this function, I would like to refer to
+# The original paper where they give the original source code:
+# Yang, Y., Tian, S., Qiu, Y., Zhao, P., & Zou, Q. (2022). 
+# MDICC: Novel method for multi-omics data integration and cancer 
+# subtype identification. Briefings in Bioinformatics, 23(3), bbac132.
+
 source('C:\\MDICC-main\\NetworkFusion.R')
 library(Rcpp)
 library(parallel)
